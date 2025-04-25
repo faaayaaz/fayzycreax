@@ -1,0 +1,16 @@
+
+/* Clean base styles */
+#root {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Keep animation keyframes if needed */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
