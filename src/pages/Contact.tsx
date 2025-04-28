@@ -100,8 +100,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="text-lg font-medium">Email</h3>
-                      <a href="mailto:contact@example.com" className="text-gray-600 hover:text-primary">
-                        contact@example.com
+                      <a href="mailto:fayas818@gmail.com" className="text-gray-600 hover:text-primary">
+                        fayas818@gmail.com
                       </a>
                     </div>
                   </div>
@@ -112,7 +112,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="text-lg font-medium">Phone</h3>
-                      <p className="text-gray-600">+1 (555) 123-4567</p>
+                      <p className="text-gray-600">+971 50 6144135</p>
                     </div>
                   </div>
                 </div>
@@ -127,13 +127,15 @@ export default function Contact() {
                       <Facebook className="h-5 w-5" />
                     </a>
                     <a 
-                      href="#" 
+                      href="https://www.instagram.com/faaayaaz?igsh=MTFjdnhqdzU2OTNrMA%3D%3D&utm_source=qr"
+                       
                       className="h-10 w-10 rounded-full bg-fashion-taupe flex items-center justify-center text-white hover:bg-fashion-charcoal transition-colors"
                     >
                       <Instagram className="h-5 w-5" />
                     </a>
                     <a 
-                      href="#" 
+                      href="https://www.linkedin.com/in/faaayaaz?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                    
                       className="h-10 w-10 rounded-full bg-data-navy flex items-center justify-center text-white hover:bg-data-blue transition-colors"
                     >
                       <Linkedin className="h-5 w-5" />

@@ -43,35 +43,35 @@ export default function Data() {
   const dataProjects = [
     {
       id: 1,
-      title: "E-commerce Customer Analysis",
+      title: "Clinical Analysis Report - Cortex",
       category: "Data Analysis",
-      description: "Analyzed customer behavior data to optimize user journey and increase conversions by 24%. Used Python and Pandas to clean and process over 1 million transaction records, identifying key patterns in customer behavior.",
-      tools: "Python, Pandas, SQL, Matplotlib",
+      description: "Designed and maintained dynamic Power BI dashboards to visualize clinic performance, patient trends, and financial data. Integrated MySQL data into a streamlined model to uncover actionable insights. Played a key role in identifying patterns behind insurance claim rejections, helping the team fix root issues and boost efficiency in the claims process.",
+      tools: "Power BI, DAX, MySQL, Data Modeling",
       year: "2023",
       image: "/placeholder.svg",
-      url: "https://example.com/ecommerce-analysis",
+      url: "https://app.powerbi.com/view?r=eyJrIjoiYzllMjcxZDMtMjhhZi00NzU0LWE3N2MtMGU4MGU0YjhiNmI1IiwidCI6IjhjZWJiMzY0LTIyMTItNGEzOS05ZjE2LWIwYTJmMjk3ZDc0YiIsImMiOjZ9",
       urlMask: "View Analysis"
     },
     {
       id: 2,
-      title: "Fashion Inventory Prediction Model",
-      category: "Machine Learning",
-      description: "Built a prediction model for fashion inventory management with 92% accuracy. Used time series analysis to forecast demand for different product categories based on historical sales data, seasonal trends, and external factors.",
-      tools: "R, Time Series Analysis, Python, scikit-learn",
-      year: "2022",
+      title: "Emission Insights",
+      category: "Root Cause Analysis",
+      description: "Developed a dynamic Power BI Dashboard focused on analyzing and visualizing vehicle CO2 emissions based on fuel type, Powertrain. Empowered stakeholders to make informed decisions regarding emission reduction strategies and sustainable vehicle options.",
+      tools: "Power BI, Root Cause Analysis, Microsoft Excel, PowerQuery",
+      year: "2024",
       image: "/placeholder.svg",
-      url: "https://example.com/inventory-prediction",
+      url: "https://app.powerbi.com/view?r=eyJrIjoiNDMzNjMwYzktZGZmMC00MDZiLThlMjUtZjk5MDhiM2UwODM5IiwidCI6ImQ2YTE5N2FlLTQ1Y2YtNGM4Yy05MTAyLWY2YWY5NDg4NWVkMiJ9",
       urlMask: "View Model"
     },
     {
       id: 3,
-      title: "Market Research Dashboard",
+      title: "workforce analytics",
       category: "Data Visualization",
-      description: "Created an interactive dashboard to visualize market research data for a major fashion brand. The dashboard helped executives track market trends, competitor analysis, and consumer preferences in real-time.",
-      tools: "Tableau, SQL, Python, D3.js",
+      description: "Analyzed sick leave data to understand patterns and trends. Examined working preferences of individuals within the organization. Provided insights into sick leave percentages for strategic workforce planning. Identified factors influencing absenteeism and potential areas for improvement",
+      tools: "Power BI, Microsoft Excel, Power Query, DAX",
       year: "2023",
       image: "/placeholder.svg",
-      url: "https://example.com/market-dashboard",
+      url: "https://app.powerbi.com/view?r=eyJrIjoiODBlY2E5NDYtOWQ4ZS00OTBkLWJkZDktOTVhYmRkZjNiN2ExIiwidCI6ImQ2YTE5N2FlLTQ1Y2YtNGM4Yy05MTAyLWY2YWY5NDg4NWVkMiJ9",
       urlMask: "View Dashboard"
     },
     {
@@ -101,28 +101,27 @@ export default function Data() {
   const [profile, setProfile] = useState({
     name: "Fayaz Mohamed",
     role: "Data Analyst",
-    img: "/lovable-uploads/c2bb14be-8935-4258-a0cf-e45281db002f.png",
+    img: "/lovable-uploads/effb464c-46e9-4f0e-9149-8adb1d3b1d22.png",
     about: "Experienced Data Analyst with a passion for deriving actionable insights from complex data."
   });
   const [showProfileEdit, setShowProfileEdit] = useState(false);
   const [skills, setSkills] = useState({
     languages: [
-      "Python (Pandas, NumPy, scikit-learn)",
+      
       "R (tidyverse, ggplot2)",
       "SQL (PostgreSQL, MySQL)",
-      "JavaScript (D3.js, Chart.js)"
+      "DAX (Power BI)"
+      
     ],
     methods: [
       "Statistical Analysis",
-      "Machine Learning",
       "Time Series Analysis",
-      "Natural Language Processing"
+      "Root Cause Analysis"
     ],
     tools: [
       "Tableau",
       "Power BI",
-      "Matplotlib & Seaborn",
-      "D3.js"
+      "Micrsoft Excel"
     ]
   });
   const [showSkillsEdit, setShowSkillsEdit] = useState(false);

@@ -36,8 +36,8 @@ const Fashion = () => {
       category: "Editorial",
       image: "/lovable-uploads/1cb96b82-31c8-4f79-9365-eb23a4bfc4c8.png",
       description: "A vibrant editorial shoot showcasing the latest urban trends with modern silhouettes.",
-      client: "Fashion Magazine",
-      photographer: "Jane Smith",
+      client: "Magazine",
+      photographer: "Faiz Ahammed",
       year: 2023
     },
     {
@@ -93,7 +93,7 @@ const Fashion = () => {
       category: "Commercial",
       image: "/lovable-uploads/effb464c-46e9-4f0e-9149-8adb1d3b1d22.png",
       description: "Showcasing premium accessories and jewelry pieces.",
-      client: "Luxe Accessories",
+      client: "",
       photographer: "David Lee",
       year: 2023
     },
