@@ -31,18 +31,18 @@ export default function Footer() {
               <a href="#" className="text-gray-300 hover:text-white transition-colors">
                 <Facebook size={24} />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a href="https://www.instagram.com/faaayaaz?igsh=MTFjdnhqdzU2OTNrMA%3D%3D&utm_source=qr" className="text-gray-300 hover:text-white transition-colors">
                 <Instagram size={24} />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/faaayaaz?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="text-gray-300 hover:text-white transition-colors">
                 <Linkedin size={24} />
               </a>
-              <a href="mailto:contact@example.com" className="text-gray-300 hover:text-white transition-colors">
+              <a href="mailto:fayas818@gmail.com" className="text-gray-300 hover:text-white transition-colors">
                 <Mail size={24} />
               </a>
             </div>
             <p className="mt-4 text-gray-300">
-              Email: contact@example.com
+              Email: fayas818@gmail.com
             </p>
           </div>
         </div>

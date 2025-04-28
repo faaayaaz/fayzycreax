@@ -50,9 +50,9 @@ export default function About() {
     {
       category: "Data Analysis",
       items: [
-        { name: "Power BI", level: 95 },
-        { name: "SQL", level: 90 },
-        { name: "DAX", level: 85 },
+        { name: "Power BI", level: 85 },
+        { name: "SQL", level: 80 },
+        { name: "DAX", level: 80 },
         { name: "Microsoft Excel", level: 80 },
         { name: "ETL", level: 75 },
       ]
@@ -203,26 +203,19 @@ export default function About() {
                   <h3 className="text-2xl font-serif mb-6">Education</h3>
                   <div className="space-y-6">
                     <div className="border-l-4 border-fashion-taupe pl-4 py-2">
-                      <h4 className="font-medium">MSc in Data Science</h4>
-                      <p className="text-gray-600">University of Technology, 2019-2021</p>
+                      <h4 className="font-medium">Bachelor Of Engineering In Computer Science</h4>
+                      <p className="text-gray-600">P.A College Of Engineering, 2019-2023</p>
                       <p className="text-sm text-gray-700 mt-2">
-                        Specialized in predictive modeling and data visualization
+                        Specialized in Data Science and data visualization
                       </p>
                     </div>
                     <div className="border-l-4 border-fashion-taupe pl-4 py-2">
-                      <h4 className="font-medium">BSc in Computer Science</h4>
-                      <p className="text-gray-600">State University, 2015-2019</p>
-                      <p className="text-sm text-gray-700 mt-2">
-                        Minor in Fashion Marketing
+                      <h4 className="font-medium">Computer Scicnce</h4>
+                      <p className="text-gray-600">Kerala Higher Secondary Education, 2017-2019</p>
+                      <p className="text-sm text-gray-700 mt-2">Acquired a solid foundation in Computer Science
                       </p>
                     </div>
-                    <div className="border-l-4 border-fashion-taupe pl-4 py-2">
-                      <h4 className="font-medium">Professional Modeling Course</h4>
-                      <p className="text-gray-600">International Modeling Academy, 2016</p>
-                      <p className="text-sm text-gray-700 mt-2">
-                        Comprehensive training in runway, editorial, and commercial modeling
-                      </p>
-                    </div>
+                
                   </div>
                 </div>
                 
@@ -231,24 +224,25 @@ export default function About() {
                   <h3 className="text-2xl font-serif mb-6">Experience</h3>
                   <div className="space-y-6">
                     <div className="border-l-4 border-data-teal pl-4 py-2">
-                      <h4 className="font-medium">Senior Data Analyst</h4>
-                      <p className="text-gray-600">Fashion Analytics Inc., 2022-Present</p>
+                      <h4 className="font-medium">BI Analyst & Software Support</h4>
+                      <p className="text-gray-600">Safecare Technology, 2024-Present</p>
                       <p className="text-sm text-gray-700 mt-2">
-                        Leading data analysis for major fashion brands, optimizing marketing strategies
+                      Utilized MySQL for database management, ensuring data integrity and optimal performance.<br/> 
+                      • Developed and maintained applications using Java, enhancing system functionality and user experience <br/>
+                      • Designed Power BI dashboards to analyze financial, insurance, and medical data for business decision-making<br/>
                       </p>
                     </div>
                     <div className="border-l-4 border-data-teal pl-4 py-2">
-                      <h4 className="font-medium">Professional Model</h4>
-                      <p className="text-gray-600">Elite Model Agency, 2017-Present</p>
-                      <p className="text-sm text-gray-700 mt-2">
-                        Editorial, commercial and runway modeling for international brands
+                      <h4 className="font-medium">Data Science Intern</h4>
+                      <p className="text-gray-600">Codelab Systems, 08/2022 - 09/2022</p>
+                      <p className="text-sm text-gray-700 mt-2">• Assisting with data collection and data cleaning. Engaged in exploratory data analysis to identify trends, patterns, and outliers for actionable recommendation. 
+                  
                       </p>
                     </div>
                     <div className="border-l-4 border-data-teal pl-4 py-2">
-                      <h4 className="font-medium">Data Visualization Specialist</h4>
-                      <p className="text-gray-600">Tech Solutions Co., 2019-2022</p>
-                      <p className="text-sm text-gray-700 mt-2">
-                        Created interactive dashboards for business intelligence
+                      <h4 className="font-medium">Freelance Modeling</h4>
+                      <p className="text-gray-600">Freelance</p>
+                      <p className="text-sm text-gray-700 mt-2">Focused on delivering style and energy in every shoot, doing it as a hobby.
                       </p>
                     </div>
                   </div>

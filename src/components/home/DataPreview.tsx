@@ -6,10 +6,10 @@ import { BarChart, PieChart } from "lucide-react";
 
 export default function DataPreview() {
   const keyProject = {
-    title: "E-commerce Data Magic",
-    metric: "+24% Conversions",
+    title: "Cortex Health Intelligence",
+    metric: "Enhanced Workflow By 18%",
     highlight: "Analytics that move the needle.",
-    tech: "Python · Pandas · SQL",
+    tech: "Power BI · DAX · MySQL",
     url: "/data",
   };
 
@@ -57,7 +57,7 @@ export default function DataPreview() {
                 </div>
                 
                 <motion.div
-                  className="text-3xl md:text-4xl font-bold text-data-teal mb-3 dark:text-data-teal/90"
+                  className="text-2xl md:text-2.5xl font-bold text-data-teal mb-3 dark:text-data-teal/90"
                   initial={{ scale: 1 }}
                   animate={{ scale: [1, 1.05, 1], color: ["#2A9D8F", "#3E78B2", "#2A9D8F"] }}
                   transition={{ duration: 4, repeat: Infinity }}

@@ -23,13 +23,12 @@ export default function AboutPreview() {
           <div>
             <h2 className="text-3xl font-serif mb-4">About Me</h2>
             <p className="mb-4 text-gray-700">
-              I am a fashion model and data analyst with over 5 years of
-              experience in both fields. My unique career path has allowed me to
-              develop a rare combination of creative and analytical skills.
+            I’m a data analyst with over a year of experience working with tools like Power BI, SQL, Excel, and R to uncover insights that support smarter business decisions. I enjoy solving problems through data and bringing clarity to complex information.",
+            "Outside of my analytics work, I have a growing interest in fashion modeling and am currently building my portfolio. It’s a creative outlet that complements my analytical side and allows me to explore a different form of expression.
             </p>
             <p className="mb-6 text-gray-700">
               In the fashion industry, I've worked with renowned brands and
-              photographers, while my data analysis expertise spans Python, SQL,
+              photographers, while my data analysis expertise spans Power BI, SQL,
               and R, delivering insights that drive business decisions.
             </p>
             <div className="flex flex-wrap gap-3">

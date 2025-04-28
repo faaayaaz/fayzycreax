@@ -118,16 +118,16 @@ const Fashion = () => {
     },
     {
       id: 10,
-      title: "Profile Photo 1",
+      title: "Into The Nights",
       category: "Editorial",
-      image: "/lovable-uploads/c2bb14be-8935-4258-a0cf-e45281db002f.png",
+      image: "/lovable-uploads/fashionnights.png",
       description: "Studio portrait/professional profile photo.",
       client: "N/A",
       year: 2023,
     },
     {
       id: 11,
-      title: "Profile Photo 2",
+      title: "Traditional",
       category: "Editorial",
       image: "/lovable-uploads/ec60566c-f4b9-4a91-ad34-b3a8294c1ef6.png",
       description: "Professional fashion headshot.",
@@ -136,7 +136,7 @@ const Fashion = () => {
     },
     {
       id: 12,
-      title: "Profile Photo 3",
+      title: "",
       category: "Editorial",
       image: "/lovable-uploads/ec44a1a0-5b5b-4869-8f36-4b0c37e340f2.png",
       description: "Outdoor profile portrait.",
