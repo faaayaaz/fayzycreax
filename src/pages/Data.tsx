@@ -49,7 +49,7 @@ export default function Data() {
       tools: "Power BI, DAX, MySQL, Data Modeling",
       year: "2023",
       image: "/placeholder.svg",
-      url: "https://app.powerbi.com/view?r=eyJrIjoiYzllMjcxZDMtMjhhZi00NzU0LWE3N2MtMGU4MGU0YjhiNmI1IiwidCI6IjhjZWJiMzY0LTIyMTItNGEzOS05ZjE2LWIwYTJmMjk3ZDc0YiIsImMiOjZ9",
+      url: "https://app.powerbi.com/view?r=eyJrIjoiYWU1ZDUyZTEtZDAxNS00ZWNjLTkwMzctNjA1MGI2NzA1MTEyIiwidCI6IjhjZWJiMzY0LTIyMTItNGEzOS05ZjE2LWIwYTJmMjk3ZDc0YiIsImMiOjZ9",
       urlMask: "View Analysis"
     },
     {

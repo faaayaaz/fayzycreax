@@ -60,7 +60,7 @@ const Fashion = () => {
     },
     {
       id: 4,
-      title: "Summer Collection",
+      title: "Winter Collection",
       category: "Campaign",
       image: "/lovable-uploads/7e04893a-ef02-44c6-96ad-5e68880373bb.png",
       description: "A vibrant summer campaign showcasing seasonal trends.",
@@ -136,7 +136,7 @@ const Fashion = () => {
     },
     {
       id: 12,
-      title: "",
+      title: "Frosted Moments",
       category: "Editorial",
       image: "/lovable-uploads/ec44a1a0-5b5b-4869-8f36-4b0c37e340f2.png",
       description: "Outdoor profile portrait.",
@@ -145,9 +145,9 @@ const Fashion = () => {
     },
     {
       id: 13,
-      title: "Accessories Edit",
+      title: "Nightfall Noir",
       category: "Commercial",
-      image: "/lovable-uploads/effb464c-46e9-4f0e-9149-8adb1d3b1d22.png",
+      image: "/lovable-uploads/eveningstreet.png",
       description: "Showcasing premium accessories and jewelry pieces.",
       client: "Luxe Accessories",
       photographer: "David Lee",

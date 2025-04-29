@@ -9,7 +9,7 @@ import { ImageUpload } from "@/components/common/ImageUpload";
 export default function About() {
   const defaultAbout = {
     title: "About Me",
-    image: "/lovable-uploads/357ea9c5-6a81-4980-afb3-0dda40df4919.png",
+    image: "/lovable-uploads/aboutme.png",
     paragraphs: [
       "I’m a data analyst with over a year of experience working with tools like Power BI, SQL, Excel, and R to uncover insights that support smarter business decisions. I enjoy solving problems through data and bringing clarity to complex information.",
       "Outside of my analytics work, I have a growing interest in fashion modeling and am currently building my portfolio. It’s a creative outlet that complements my analytical side and allows me to explore a different form of expression."
