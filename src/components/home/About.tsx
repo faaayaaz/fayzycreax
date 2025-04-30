@@ -29,7 +29,7 @@ export default function AboutPreview() {
             <p className="mb-6 text-gray-700">
               In the fashion industry, I've worked with renowned brands and
               photographers, while my data analysis expertise spans Power BI, SQL,
-              and R, delivering insights that drive business decisions.
+              and Microsoft Excel, delivering insights that drive business decisions.
             </p>
             <div className="flex flex-wrap gap-3">
               <span className="px-3 py-1 bg-fashion-beige text-fashion-charcoal rounded-full text-sm">

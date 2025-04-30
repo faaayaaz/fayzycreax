@@ -50,7 +50,7 @@ export default function Data() {
       year: "2023",
       image: "/placeholder.svg",
       url: "https://app.powerbi.com/view?r=eyJrIjoiYWU1ZDUyZTEtZDAxNS00ZWNjLTkwMzctNjA1MGI2NzA1MTEyIiwidCI6IjhjZWJiMzY0LTIyMTItNGEzOS05ZjE2LWIwYTJmMjk3ZDc0YiIsImMiOjZ9",
-      urlMask: "View Analysis"
+      urlMask: "View Report"
     },
     {
       id: 2,
@@ -61,7 +61,7 @@ export default function Data() {
       year: "2024",
       image: "/placeholder.svg",
       url: "https://app.powerbi.com/view?r=eyJrIjoiNDMzNjMwYzktZGZmMC00MDZiLThlMjUtZjk5MDhiM2UwODM5IiwidCI6ImQ2YTE5N2FlLTQ1Y2YtNGM4Yy05MTAyLWY2YWY5NDg4NWVkMiJ9",
-      urlMask: "View Model"
+      urlMask: "View Report"
     },
     {
       id: 3,
@@ -72,28 +72,28 @@ export default function Data() {
       year: "2023",
       image: "/placeholder.svg",
       url: "https://app.powerbi.com/view?r=eyJrIjoiODBlY2E5NDYtOWQ4ZS00OTBkLWJkZDktOTVhYmRkZjNiN2ExIiwidCI6ImQ2YTE5N2FlLTQ1Y2YtNGM4Yy05MTAyLWY2YWY5NDg4NWVkMiJ9",
-      urlMask: "View Dashboard"
+      urlMask: "View Report"
     },
     {
       id: 4,
-      title: "Social Media Sentiment Analysis",
-      category: "NLP",
-      description: "Performed sentiment analysis on social media data to gauge public perception of fashion brands. Used natural language processing techniques to analyze thousands of comments and posts, providing actionable insights to marketing teams.",
-      tools: "Python, NLTK, spaCy, TensorFlow",
-      year: "2021",
+      title: "PWC Client Intelligence",
+      category: "Data Analytics",
+      description: "A comprehensive churn analysis visualization that transforms raw customer data into actionable intelligence. This interactive dashboard identifies critical risk factors across contract types, payment methods, and demographics, empowering businesses to implement targeted retention strategies and maximize customer lifetime value.",
+      tools: "Power BI, Power Query, Excel",
+      year: "2024",
       image: "/placeholder.svg",
-      url: "https://example.com/sentiment-analysis",
-      urlMask: "View Analysis"
+      url: "https://app.powerbi.com/view?r=eyJrIjoiMzljMGY5NzEtN2RmZS00YjBhLWEyMzgtNGJmNzFlN2NkNjZlIiwidCI6IjhjZWJiMzY0LTIyMTItNGEzOS05ZjE2LWIwYTJmMjk3ZDc0YiIsImMiOjZ9",
+      urlMask: "View Report"
     },
     {
       id: 5,
-      title: "Retail Store Performance Analysis",
+      title: "PWC HR Analysis",
       category: "Data Analysis",
-      description: "Analyzed performance metrics across 50+ retail locations to identify key factors affecting sales. Created a scoring model that helped optimize store layouts and product placement, resulting in a 15% increase in revenue.",
-      tools: "Python, SQL, Power BI, Excel",
-      year: "2022",
+      description: "A dynamic Power BI dashboard delivering deep insights into workforce trends, including turnover, diversity, promotions, and performance—designed to support strategic HR decision-making.",
+      tools: "SQL, Power BI, Excel",
+      year: "2024",
       image: "/placeholder.svg",
-      url: "https://example.com/retail-performance",
+      url: "https://app.powerbi.com/view?r=eyJrIjoiN2E4YjE1ZDYtNmJiYS00OGIxLWFhNDYtYmY1NTM5Mjk4MWM5IiwidCI6IjhjZWJiMzY0LTIyMTItNGEzOS05ZjE2LWIwYTJmMjk3ZDc0YiIsImMiOjZ9",
       urlMask: "View Report"
     }
   ];
@@ -249,7 +249,7 @@ export default function Data() {
                 className="text-lg md:text-xl max-w-2xl mx-auto text-muted-foreground leading-relaxed"
               >
                 Exploring complex datasets to extract meaningful insights
-                using Python, SQL, R, and visualization tools.
+                using Power BI, SQL, and Microsoft Excel.
               </motion.p>
             </div>
           </div>
