@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
@@ -7,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
-import { Facebook, Instagram, Linkedin, Mail, Phone, User } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Mail, Phone, User, Download } from "lucide-react";
 
 export default function Contact() {
   const { toast } = useToast();
@@ -18,6 +17,9 @@ export default function Contact() {
     message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
+  
+  // Resume file path - you can update this to your actual resume file path
+  const resumeFilePath = "\lovable-uploads/Muhammed Fayaz.pdf";
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -42,6 +44,14 @@ export default function Contact() {
         message: "",
       });
     }, 1500);
+  };
+  
+  const handleResumeDownload = () => {
+    // You could add analytics tracking here if needed
+    toast({
+      title: "Downloading resume",
+      description: "Your download should begin shortly.",
+    });
   };
 
   return (
@@ -123,30 +133,58 @@ export default function Contact() {
                     <a 
                       href="#" 
                       className="h-10 w-10 rounded-full bg-fashion-taupe flex items-center justify-center text-white hover:bg-fashion-charcoal transition-colors"
+                      aria-label="Facebook"
                     >
                       <Facebook className="h-5 w-5" />
                     </a>
                     <a 
                       href="https://www.instagram.com/faaayaaz?igsh=MTFjdnhqdzU2OTNrMA%3D%3D&utm_source=qr"
-                       
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="h-10 w-10 rounded-full bg-fashion-taupe flex items-center justify-center text-white hover:bg-fashion-charcoal transition-colors"
+                      aria-label="Instagram"
                     >
                       <Instagram className="h-5 w-5" />
                     </a>
                     <a 
                       href="https://www.linkedin.com/in/faaayaaz?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                    
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="h-10 w-10 rounded-full bg-data-navy flex items-center justify-center text-white hover:bg-data-blue transition-colors"
+                      aria-label="LinkedIn"
                     >
                       <Linkedin className="h-5 w-5" />
                     </a>
                   </div>
                 </div>
                 
-                <div className="pt-8">
-                  <Button variant="outline" className="flex items-center gap-2">
-                    Download Resume <User className="h-4 w-4" />
-                  </Button>
+                <div className="pt-8 space-y-4">
+                  <a 
+                    href={resumeFilePath}
+                    download
+                    onClick={handleResumeDownload}
+                    className="inline-flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors"
+                  >
+                    <Download className="h-4 w-4" /> Download Resume (PDF)
+                  </a>
+                  
+                  {/* Additional resume formats if needed */}
+                  <div className="flex flex-wrap gap-2">
+                    <a 
+                      href="/resume/Fayas_Resume_2024.docx"
+                      download
+                      className="text-sm text-gray-600 hover:text-primary flex items-center gap-1"
+                    >
+                      <Download className="h-3 w-3" /> DOCX
+                    </a>
+                    <a 
+                      href="/resume/Fayas_Resume_2024.txt"
+                      download
+                      className="text-sm text-gray-600 hover:text-primary flex items-center gap-1"
+                    >
+                      <Download className="h-3 w-3" /> TXT
+                    </a>
+                  </div>
                 </div>
               </motion.div>
               
